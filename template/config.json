@@ -96,7 +96,7 @@
       "アットマークまたはドメインなし": "plainaddress",
       "アットマークがない": "email.domain.com",
       "アドレスがない": "@domain.com",
-      "役にたたないデータ": "#@%^%#$@#$@#.com",
+      "役に立たないデータ": "#@%^%#$@#$@#.com",
       "アドレス帳からのコピー/ペーストに名前が含まれている": "Joe Smith <email@domain.com>",
       "余計なテキスト": "email@domain.com (Joe Smith)",
       "二つのアットマーク": "email@domain@domain.com",
@@ -154,15 +154,15 @@
         "MasterCard":"5424000000000015"
       },
       "郵便番号": {
-        "Declined": "46282",
-        "AVS Invalid": "46203",
-        "AVS Unavailable": "46207",
-        "Non US Bank": "46204"
+        "拒否": "46282",
+        "AVS無効": "46203",
+        "AVS利用不可": "46207",
+        "米国外の銀行": "46204"
       },
       "セキュリティコード": {
-        "Successful": "900",
-        "Does Not Match": "901",
-        "Not Processed": "46207"
+        "成功": "900",
+        "一致しない": "901",
+        "未処理": "46207"
       }
     },
     "Braintree": {
@@ -365,7 +365,7 @@
       "目に見えない空間のあるテキスト": {
         "モンゴル母音分離符号": "two\u180Ewords",
         "ゼロ幅接続子": "two\u200Dwords",
-        "ゼロ幅非接続子r": "two\u200Cwords"
+        "ゼロ幅非接続子": "two\u200Cwords"
       }
     },
     "絵文字": {

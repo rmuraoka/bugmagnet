@@ -17,14 +17,14 @@ module.exports = function ContextMenu(standardConfig, browserInterface, menuBuil
 				},
 				toValue = function (itemMenuValue) {
 					if (typeof (itemMenuValue) === 'string') {
-						return { '_type': 'literal', 'value': itemMenuValue};
+						return {'_type': 'literal', 'value': itemMenuValue};
 					}
 					return itemMenuValue;
 				},
 				requestValue = toValue(itemMenuValue);
 			if (falsyButNotEmpty(requestValue)) {
 				return;
-			};
+			}
 			return handlers[handlerType](browserInterface, tabId, requestValue);
 		},
 		turnOnPasting = function () {
@@ -54,16 +54,16 @@ module.exports = function ContextMenu(standardConfig, browserInterface, menuBuil
 		addGenericMenus = function (rootMenu) {
 			menuBuilder.separator(rootMenu);
 			if (pasteSupported) {
-				const modeMenu = menuBuilder.subMenu('Operational mode', rootMenu);
-				handlerMenus.injectValue = menuBuilder.choice('Inject value', modeMenu, turnOffPasting, true);
-				handlerMenus.paste = menuBuilder.choice('Simulate pasting', modeMenu, turnOnPasting);
-				handlerMenus.copy = menuBuilder.choice('Copy to clipboard', modeMenu, turnOnCopy);
+				const modeMenu = menuBuilder.subMenu('運用モード', rootMenu);
+				handlerMenus.injectValue = menuBuilder.choice('値の挿入', modeMenu, turnOffPasting, true);
+				handlerMenus.paste = menuBuilder.choice('貼り付けをシミュレート', modeMenu, turnOnPasting);
+				handlerMenus.copy = menuBuilder.choice('クリップボードにコピー', modeMenu, turnOnCopy);
 			}
-			menuBuilder.menuItem('Customise menus', rootMenu, browserInterface.openSettings);
-			menuBuilder.menuItem('Help/Support', rootMenu, () => browserInterface.openUrl('https://bugmagnet.org/contributing.html'));
+			menuBuilder.menuItem('メニューをカスタマイズする', rootMenu, browserInterface.openSettings);
+			menuBuilder.menuItem('ヘルプ/サポート（英語のページにアクセスします）', rootMenu, () => browserInterface.openUrl('https://bugmagnet.org/contributing.html'));
 		},
 		rebuildMenu = function (options) {
-			const rootMenu =  menuBuilder.rootMenu('Bug Magnet'),
+			const rootMenu = menuBuilder.rootMenu('Bug Magnet'),
 				additionalMenus = options && options.additionalMenus,
 				skipStandard = options && options.skipStandard;
 			if (!skipStandard) {
