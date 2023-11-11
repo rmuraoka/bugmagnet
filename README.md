@@ -11,4 +11,4 @@ BugMagnetは探索的テストのためのChrome/Firefox拡張機能です。こ
 
 ## 謝辞
 * このプロジェクトは[Gojko Adzic](https://github.com/gojko/bugmagnet)による[BugMagnet](https://github.com/gojko/bugmagnet)を基にしています。
-* [rina](https://github.com/kume-rina)さんの手法を参照させていただいたことを感謝します。
+* [rina](https://github.com/kume-rina)さんの手法を参照させていただきました。ありがとうございます。
