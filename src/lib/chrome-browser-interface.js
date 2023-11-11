@@ -17,7 +17,7 @@ module.exports = function ChromeBrowserInterface(chrome) {
 		}
 	};
 	self.openUrl = function (url) {
-		window.open(url);
+		chrome.tabs.create({ url: url });
 	};
 	self.addStorageListener = function (listener) {
 		chrome.storage.onChanged.addListener(function (changes, areaName) {
@@ -53,7 +53,12 @@ module.exports = function ChromeBrowserInterface(chrome) {
 	};
 	self.executeScript = function (tabId, source) {
 		return new Promise((resolve) => {
-			return chrome.tabs.executeScript(tabId, {file: source}, resolve);
+			chrome.scripting.executeScript({
+				target: {tabId: tabId},
+				files: [source]
+			}, (result) => {
+				resolve(result && result.length ? result[0] : null);
+			});
 		});
 	};
 	self.sendMessage = function (tabId, message) {
@@ -88,8 +93,16 @@ module.exports = function ChromeBrowserInterface(chrome) {
 		document.execCommand('copy');
 		document.removeEventListener('copy', handler);
 	};
+	function alertFunction(text) {
+		alert(text);
+	}
 	self.showMessage = function (text) {
 		chrome.tabs.executeScript(null, {code: `alert("${text}")`});
+		chrome.scripting.executeScript({
+			target: null,
+			func: alertFunction,
+			args: [text]
+		});
 	};
 };
 
