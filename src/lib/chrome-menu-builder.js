@@ -5,22 +5,48 @@ module.exports = function ChromeMenuBuilder(chrome) {
 	const self = this,
 		contexts = ['editable'];
 	self.rootMenu = function (title) {
-		return chrome.contextMenus.create({'title': title, 'contexts': contexts});
+		return chrome.contextMenus.create({
+			'id': 'rootMenuId' + title,
+			'title': title,
+			'contexts': contexts
+		});
 	};
 	self.subMenu = function (title, parentMenu) {
-		return chrome.contextMenus.create({'title': title, 'parentId': parentMenu, 'contexts': contexts});
+		return chrome.contextMenus.create({
+			'id': 'subMenuId' + title + Math.random(),
+			'title': title,
+			'parentId': parentMenu,
+			'contexts': contexts
+		});
 	};
 	self.separator = function (parentMenu) {
-		return chrome.contextMenus.create({'type': 'separator', 'parentId': parentMenu, 'contexts': contexts});
+		return chrome.contextMenus.create({
+			'id': 'separatorId',
+			'type': 'separator',
+			'parentId': parentMenu,
+			'contexts': contexts
+		});
 	};
 	self.menuItem = function (title, parentMenu, clickHandler, value) {
-		const id = chrome.contextMenus.create({'title': title, 'parentId': parentMenu, 'contexts': contexts});
+		const id = chrome.contextMenus.create({
+			'id': 'menuItemId' + title + Math.random(),
+			'title': title,
+			'parentId': parentMenu,
+			'contexts': contexts
+		});
 		itemValues[id] = value;
 		itemHandlers[id] = clickHandler;
 		return id;
 	};
-	self.choice  = function (title, parentMenu, clickHandler, value) {
-		const id = chrome.contextMenus.create({type: 'radio', checked: value, title: title, parentId: parentMenu, 'contexts': contexts});
+	self.choice = function (title, parentMenu, clickHandler, value) {
+		const id = chrome.contextMenus.create({
+			'id': 'choiceId' + title + value,
+			type: 'radio',
+			checked: value,
+			title: title,
+			parentId: parentMenu,
+			'contexts': contexts
+		});
 		itemHandlers[id] = clickHandler;
 		return id;
 	};

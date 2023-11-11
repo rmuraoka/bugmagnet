@@ -1,38 +1,14 @@
-![](screenshots/chrome-medium-tile.png)
+# BugMagnet日本語版
+BugMagnetは探索的テストのためのChrome/Firefox拡張機能です。このフォークでは、元の[BugMagnet](https://github.com/gojko/bugmagnet)を日本語化しました。
 
-Exploratory testing assistant for Chrome and Firefox. Adds common problematic values and edge cases to the context menu (right-click) for editable elements, so you can keep them handy and access them easily during exploratory testing sessions.  
+## インストール手順
 
-## Features
+## 使い方
+右クリックをして「Bug Magnet」を選択し、入力したい文字列を選択するとその文字列が入力フォームに反映されます。
 
-* Convenient access to common boundaries and edge cases for exploratory testing
-* Extend it with your own config files easily
-* Works on input fields, text areas, content editable DIVs
-* Works on multi-frame pages, but only if they are from the same domain
-* Works in Chrome and Firefox
-* Tiny overhead per page (<1k), no 3rd party library dependencies, completely passive, so it does not interfere with your web app execution in any way
+## ライセンス
+このプロジェクトはMITライセンスの下にライセンスされています - 詳細はLICENSEファイルを参照してください。
 
-## Usage
-
-The easiest way to install the extension is from the [Chrome Web store](https://chrome.google.com/webstore/detail/efhedldbjahpgjcneebmbolkalbhckfi) or [Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/bug-magnet/).
-
-After installation, just right-click on any editable item on the page and you'll see a Bug Magnet submenu. Click an item there, and it will be inserted into the editable field. 
-
-## More infomation 
-
-* [What's new in the latest version?](https://bugmagnet.org/v3.html)
-* [How to install and use BugMagnet?](https://bugmagnet.org/using.html)
-* [How to contribute or support development?](https://bugmagnet.org/contributing.html)
-* [How to customise menus?](https://bugmagnet.org/customising.html)
-* [Developer Guide](CONTRIBUTING.md)
-* [Resources about edge cases in BugMagnet menus](https://bugmagnet.org/resources.html).
-
-## Authors 
-
-* [Gojko Adzic](https://gojko.net) 
-* [@bbbco](http://twitter.com/bbbco) (old Firefox Addon)
-
-----
-
-## Icon credit
-
-Magnet icon from [Woothemes Ultimate Icon Set by Nishan Sothilingam](http://iconfindr.com/1vSsaKB)
+## 謝辞
+* このプロジェクトは[Gojko Adzic](https://github.com/gojko/bugmagnet)による[BugMagnet](https://github.com/gojko/bugmagnet)を基にしています。
+* [rina](https://github.com/kume-rina)さんの手法を参照させていただきました。ありがとうございます。
