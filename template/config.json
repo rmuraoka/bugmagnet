@@ -326,7 +326,7 @@
     "JS Scriptインジェクション": "Nice site,  I think I'll take it. <script>alert('Executing JS')</script>",
     "JS String (XSS)インジェクション - シングルクォーテーション": "'-prompt()-'",
     "JS String (XSS)インジェクション - ダブルクォーテーション": "\"-prompt()-\"",
-    "HTMLインジェクション": "<blink>Hello there</blink>",
+    "HTMLインジェクション": "<font color=\"red\">Hello there</font>",
     "破損したHTML": "<i><b>Bold</i></b>"
   },
   "Unicode": {
