@@ -2,7 +2,6 @@
 BugMagnetは探索的テストのためのChrome拡張機能です。このフォークでは、元の[BugMagnet](https://github.com/gojko/bugmagnet)を日本語化しました。
 
 ## インストール手順
-### Chrome
 1. GitHub のリリースページへ行く: https://github.com/rmuraoka/bugmagnet/releases
 2. 最新のリリースタグの BugMagnetJP_Chrome.zip をダウンロードする
 3. ZIP ファイルを手元で解凍する
