@@ -1,7 +1,7 @@
 {
   "name": "Bug Magnet日本語版",
   "description": "Bug Magnetの日本語版。探索的テストに役立つ右クリックのコンテキストメニュー",
-  "version": "1.0",
+  "version": "0.0.1",
   "permissions": [
     "scripting",
     "contextMenus",
