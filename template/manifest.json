@@ -3,7 +3,6 @@
   "description": "Bug Magnetの日本語版。探索的テストに役立つ右クリックのコンテキストメニュー",
   "version": "1.1.0",
   "permissions": [
-    "scripting",
     "contextMenus",
     "storage",
     "activeTab"
@@ -13,9 +12,11 @@
     "clipboardRead"
   ],
   "background": {
-    "service_worker": "extension.js"
+    "scripts": [
+      "extension.js"
+    ]
   },
-  "manifest_version": 3,
+  "manifest_version": 2,
   "icons": {
     "128": "magnet.png",
     "16": "magnet-16.png"
@@ -23,6 +24,7 @@
   "homepage_url": "https://github.com/rmuraoka/bugmagnet",
   "author": "Risa Muraoka",
   "options_ui": {
-    "page": "options.html"
+    "page": "options.html",
+    "chrome_style": true
   }
 }
