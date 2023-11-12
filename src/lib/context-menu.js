@@ -60,9 +60,7 @@ module.exports = function ContextMenu(standardConfig, browserInterface, menuBuil
 				handlerMenus.copy = menuBuilder.choice('クリップボードにコピー', modeMenu, turnOnCopy);
 			}
 			menuBuilder.menuItem('メニューをカスタマイズする', rootMenu, browserInterface.openSettings);
-			menuBuilder.menuItem('バグを報告する', rootMenu, () => {
-				browserInterface.openUrl('https://github.com/rmuraoka/bugmagnet/issues');
-			});
+			menuBuilder.menuItem('バグを報告する', rootMenu, () => browserInterface.openUrl('https://github.com/rmuraoka/bugmagnet/issues'));
 		},
 		rebuildMenu = function (options) {
 			const rootMenu = menuBuilder.rootMenu('Bug Magnet'),
