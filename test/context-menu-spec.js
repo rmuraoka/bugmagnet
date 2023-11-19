@@ -1,8 +1,9 @@
 /*global describe, window, it, beforeEach, jasmine, expect*/
-const ContextMenu = require('../src/lib/context-menu');
+const ContextMenu = require('../src/lib/context-menu'),
+	FakeChromeApi = require('./utils/fake-chrome-api');
 describe('ContextMenu', function () {
 	'use strict';
-	let fakeRoot, standardConfig, browserInterface, underTest, processMenuObject, menuBuilder;
+	let fakeRoot, standardConfig, browserInterface, underTest, processMenuObject, menuBuilder, chrome;
 	beforeEach(function () {
 		standardConfig = {
 			name: 'value'
@@ -15,7 +16,11 @@ describe('ContextMenu', function () {
 		browserInterface.sendMessage.and.returnValue(Promise.resolve({}));
 		menuBuilder.rootMenu.and.returnValue(fakeRoot);
 		menuBuilder.removeAll.and.returnValue(Promise.resolve({}));
-		underTest = new ContextMenu(standardConfig, browserInterface, menuBuilder, processMenuObject);
+		chrome = new FakeChromeApi();
+		chrome.i18n.getMessage.and.callFake((title) => {
+			return title;
+		});
+		underTest = new ContextMenu(standardConfig, browserInterface, menuBuilder, processMenuObject, true, chrome);
 	});
 	describe('initial load', function () {
 		it('sets up the basic menu when no local settings', done => {
@@ -85,6 +90,7 @@ describe('ContextMenu', function () {
 				listener = browserInterface.addStorageListener.calls.argsFor(0)[0];
 				processMenuObject.calls.reset();
 				menuBuilder.rootMenu.calls.reset();
+
 			}).then(done, done.fail);
 		});
 		it('clears all menu items', function (done) {
@@ -173,7 +179,10 @@ describe('ContextMenu', function () {
 		});
 		it('sends plain strings as a literal type object after the script executes', done => {
 			clickHandler(1, 'something')
-				.then(() => expect(browserInterface.sendMessage).toHaveBeenCalledWith(1, {_type: 'literal', value: 'something'}))
+				.then(() => expect(browserInterface.sendMessage).toHaveBeenCalledWith(1, {
+					_type: 'literal',
+					value: 'something'
+				}))
 				.then(done, done.fail);
 		});
 		it('sends empty strings as a literal type object after the script executes', done => {

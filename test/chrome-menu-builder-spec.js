@@ -10,6 +10,9 @@ describe('BugMagnet.ChromeMenuBuilder', function () {
 	beforeEach(function () {
 		chrome = new FakeChromeApi();
 		chrome.contextMenus.create.and.callFake(() => index++);
+		chrome.i18n.getMessage.and.callFake((title) => {
+			return title;
+		});
 		underTest = new ChromeMenuBuilder(chrome);
 		clickHandler = chrome.contextMenus.onClicked.addListener.calls.mostRecent().args[0];
 	});

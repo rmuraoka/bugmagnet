@@ -1,7 +1,7 @@
 const injectValueRequestHandler = require('./inject-value-request-handler'),
 	pasteRequestHandler = require('./paste-request-handler'),
 	copyRequestHandler = require('./copy-request-handler');
-module.exports = function ContextMenu(standardConfig, browserInterface, menuBuilder, processMenuObject, pasteSupported) {
+module.exports = function ContextMenu(standardConfig, browserInterface, menuBuilder, processMenuObject, pasteSupported, chrome) {
 	'use strict';
 	let handlerType = 'injectValue';
 	const self = this,
@@ -54,13 +54,13 @@ module.exports = function ContextMenu(standardConfig, browserInterface, menuBuil
 		addGenericMenus = function (rootMenu) {
 			menuBuilder.separator(rootMenu);
 			if (pasteSupported) {
-				const modeMenu = menuBuilder.subMenu('運用モード', rootMenu);
-				handlerMenus.injectValue = menuBuilder.choice('値の挿入', modeMenu, turnOffPasting, true);
-				handlerMenus.paste = menuBuilder.choice('貼り付けをシミュレート', modeMenu, turnOnPasting);
-				handlerMenus.copy = menuBuilder.choice('クリップボードにコピー', modeMenu, turnOnCopy);
+				const modeMenu = menuBuilder.subMenu(chrome.i18n.getMessage('OperationalMode'), rootMenu);
+				handlerMenus.injectValue = menuBuilder.choice(chrome.i18n.getMessage('InjectValue'), modeMenu, turnOffPasting, true);
+				handlerMenus.paste = menuBuilder.choice(chrome.i18n.getMessage('SimulatePasting'), modeMenu, turnOnPasting);
+				handlerMenus.copy = menuBuilder.choice(chrome.i18n.getMessage('CopyToClipboard'), modeMenu, turnOnCopy);
 			}
-			menuBuilder.menuItem('メニューをカスタマイズする', rootMenu, browserInterface.openSettings);
-			menuBuilder.menuItem('バグを報告する', rootMenu, () => browserInterface.openUrl('https://github.com/rmuraoka/bugmagnet/issues'));
+			menuBuilder.menuItem(chrome.i18n.getMessage('CustomiseMenus'), rootMenu, browserInterface.openSettings);
+			menuBuilder.menuItem(chrome.i18n.getMessage('HelpSupport'), rootMenu, () => browserInterface.openUrl('https://github.com/rmuraoka/bugmagnet/issues'));
 		},
 		rebuildMenu = function (options) {
 			const rootMenu = menuBuilder.rootMenu('Bug Magnet'),

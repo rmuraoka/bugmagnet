@@ -1,0 +1,581 @@
+{
+  "Lorems": {
+    "message": "Lorems"
+  },
+  "Latin": {
+    "message": "Latin"
+  },
+  "Cyrillic": {
+    "message": "Cyrillic"
+  },
+  "ArabicRTL": {
+    "message": "Arabic (RTL)"
+  },
+  "Chinese": {
+    "message": "Chinese"
+  },
+  "MixedCharsets": {
+    "message": "Mixed charsets"
+  },
+  "Czech": {
+    "message": "Czech"
+  },
+  "Thai": {
+    "message": "Thai"
+  },
+  "Hindi": {
+    "message": "Hindi"
+  },
+  "UnicodeSymbolsNonLetters": {
+    "message": "Unicode symbols (non letters)"
+  },
+  "InjectionAndGarbledCharacters": {
+    "message": "Injection and garbled characters"
+  },
+  "Names": {
+    "message": "Names"
+  },
+  "LatinCharset": {
+    "message": "Latin charset"
+  },
+  "NameLength": {
+    "message": "Name length"
+  },
+  "UnusualAccentsChars": {
+    "message": "Unusual accents/chars"
+  },
+  "OtherCharsets": {
+    "message": "Other charsets"
+  },
+  "Japanese": {
+    "message": "Japanese"
+  },
+  "JapaneseTokairin": {
+    "message": "Japanese Tōkairin"
+  },
+  "Jugem": {
+    "message": "Jugem"
+  },
+  "ZeDong": {
+    "message": "Ze Dong"
+  },
+  "RussianMale": {
+    "message": "Russian male"
+  },
+  "RussianFemale": {
+    "message": "Russian female"
+  },
+  "UkrainianFemale": {
+    "message": "Ukrainian female"
+  },
+  "ThaiNickname": {
+    "message": "Thai nickname"
+  },
+  "Arabic": {
+    "message": "Arabic"
+  },
+  "CommonlyThoughtAsInvalid": {
+    "message": "Commonly thought as invalid"
+  },
+  "UnicodeCaseFolding": {
+    "message": "Unicode case folding"
+  },
+  "JamesBondWithMiddleNames": {
+    "message": "James Bond (with middle names)"
+  },
+  "PostCodes": {
+    "message": "Post Codes"
+  },
+  "AlphanumericGB": {
+    "message": "Alphanumeric (GB)"
+  },
+  "WithSpacesGB": {
+    "message": "With spaces (GB)"
+  },
+  "4DigitsAarauCH": {
+    "message": "4 digits (Aarau, CH)"
+  },
+  "3DigitsKvivikFO": {
+    "message": "3 digits (Kvivik, FO)"
+  },
+  "10DigitsTehranIR": {
+    "message": "10 digits (Tehran, IR)"
+  },
+  "WithoutHyphen7DigitsJapan": {
+    "message": "With Hyphen 7 digits (Tokyo, JP)"
+  },
+  "WithHyphen7DigitsJapan": {
+    "message": "Without Hyphen 7 digits (Tokyo, Jp)"
+  },
+  "Cities": {
+    "message": "Cities"
+  },
+  "ScandinavianLetters": {
+    "message": "Scandinavian letters"
+  },
+  "Welsh": {
+    "message": "Welsh"
+  },
+  "SingleLetterNorwegian": {
+    "message": "Single letter - Norwegian"
+  },
+  "SingleLetterFrance": {
+    "message": "Single letter - France"
+  },
+  "LongAddressJapan": {
+    "message": "Long address - Japan"
+  },
+  "EmailAddresses": {
+    "message": "E-mail addresses"
+  },
+  "Valid": {
+    "message": "Valid"
+  },
+  "Simple": {
+    "message": "Simple"
+  },
+  "DotInTheAddress": {
+    "message": "Dot in the address"
+  },
+  "Subdomain": {
+    "message": "Subdomain"
+  },
+  "PlusInAddress": {
+    "message": "Plus in address"
+  },
+  "NumericDomain": {
+    "message": "Numeric domain"
+  },
+  "SquareBracketAroundIPAddress": {
+    "message": "Square bracket around IP address"
+  },
+  "UnnecessaryQuotesAroundAddress": {
+    "message": "Unnecessary quotes around address"
+  },
+  "NecessaryQuotesAroundAddress": {
+    "message": "Necessary quotes around address"
+  },
+  "NumericAddress": {
+    "message": "Numeric address"
+  },
+  "DashInDomain": {
+    "message": "Dash in domain"
+  },
+  "Underscore": {
+    "message": "Underscore"
+  },
+  "3CharTLD": {
+    "message": ">3 char TLD"
+  },
+  "2CharTLD": {
+    "message": "2 char TLD"
+  },
+  "DashInAddress": {
+    "message": "Dash in address"
+  },
+  "Intranet": {
+    "message": "Intranet"
+  },
+  "NonAsciiEmail": {
+    "message": "Non-ascii Email"
+  },
+  "Invalid": {
+    "message": "Invalid"
+  },
+  "NoAtOrDomain": {
+    "message": "No @ or domain"
+  },
+  "MissingAt": {
+    "message": "Missing @"
+  },
+  "MissingAddress": {
+    "message": "Missing address"
+  },
+  "Garbage": {
+    "message": "Garbage"
+  },
+  "CopyPasteFromAddressBookWithName": {
+    "message": "Copy/paste from address book with name"
+  },
+  "SuperfluousText": {
+    "message": "Superfluous text"
+  },
+  "TwoAt": {
+    "message": "Two @"
+  },
+  "LeadingDotInAddress": {
+    "message": "Leading dot in address"
+  },
+  "TrailingDotInAddress": {
+    "message": "Trailing dot in address"
+  },
+  "MultipleDots": {
+    "message": "Multiple dots"
+  },
+  "UnicodeCharsInAddress": {
+    "message": "Unicode chars in address"
+  },
+  "LeadingDashInDomain": {
+    "message": "Leading dash in domain"
+  },
+  "LeadingDotInDomain": {
+    "message": "Leading dot in domain"
+  },
+  "InvalidIPFormat": {
+    "message": "Invalid IP format"
+  },
+  "MultipleDotsInTheDomain": {
+    "message": "Multiple dots in the domain"
+  },
+  "URLs": {
+    "message": "URLs"
+  },
+  "Numbers": {
+    "message": "Numbers"
+  },
+  "Amounts": {
+    "message": "Amounts"
+  },
+  "Currencies": {
+    "message": "Currencies"
+  },
+  "NoDecimals": {
+    "message": "No decimals"
+  },
+  "3Decimals": {
+    "message": "3 Decimals"
+  },
+  "PaymentCards": {
+    "message": "Payment cards"
+  },
+  "AuthorizeNet": {
+    "message": "Authorize.net"
+  },
+  "CreditCard": {
+    "message": "Credit Card"
+  },
+  "AmericanExpress": {
+    "message": "American Express"
+  },
+  "Discover": {
+    "message": "Discover"
+  },
+  "JCB": {
+    "message": "JCB"
+  },
+  "DinersClubCarteBlanch": {
+    "message": "Diners Club/ Carte Blanch"
+  },
+  "Visa": {
+    "message": "Visa"
+  },
+  "MasterCard": {
+    "message": "MasterCard"
+  },
+  "ZipCode": {
+    "message": "Zip Code"
+  },
+  "Declined": {
+    "message": "Declined"
+  },
+  "AVSInvalid": {
+    "message": "AVS Invalid"
+  },
+  "AVSUnavailable": {
+    "message": "AVS Unavailable"
+  },
+  "NonUSBank": {
+    "message": "Non US Bank"
+  },
+  "CVV": {
+    "message": "CVV"
+  },
+  "Successful": {
+    "message": "Successful"
+  },
+  "DoesNotMatch": {
+    "message": "Does Not Match"
+  },
+  "NotProcessed": {
+    "message": "Not Processed"
+  },
+  "Braintree": {
+    "message": "Braintree"
+  },
+  "ValidCreditCard": {
+    "message": "Valid Credit Card"
+  },
+  "InvalidCreditCard": {
+    "message": "Invalid Credit Card"
+  },
+  "Cybersource": {
+    "message": "Cybersource"
+  },
+  "PayflowPro": {
+    "message": "Payflow Pro"
+  },
+  "Paypal": {
+    "message": "Paypal"
+  },
+  "DankortPBS": {
+    "message": "Dankort PBS"
+  },
+  "VisaShort": {
+    "message": "Visa (short)"
+  },
+  "SwitchSoloPaymentech": {
+    "message": "Switch/Solo (Paymentech)"
+  },
+  "AustralianBankCard": {
+    "message": "Australian BankCard"
+  },
+  "DankortPBSShort": {
+    "message": "Dankort PBS (short)"
+  },
+  "AmericanExpressCorporate": {
+    "message": "American Express Corporate"
+  },
+  "Spreedly": {
+    "message": "Spreedly"
+  },
+  "BoundaryWorkflows": {
+    "message": "Boundary Workflows"
+  },
+  "SuccessfulChargeBut": {
+    "message": "Successful charge, but..."
+  },
+  "ChargeDeclined": {
+    "message": "Charge declined..."
+  },
+  "Stripe": {
+    "message": "Stripe"
+  },
+  "VisaDebit": {
+    "message": "Visa (debit)"
+  },
+  "Vantiv": {
+    "message": "Vantiv"
+  },
+  "Fail": {
+    "message": "Fail"
+  },
+  "FailDueToSecurityMismatch": {
+    "message": "Fail Due to Security Mismatch"
+  },
+  "DoNotHonor": {
+    "message": "Do Not Honor"
+  },
+  "GenericDecline": {
+    "message": "Generic Decline"
+  },
+  "TextSize": {
+    "message": "Text size"
+  },
+  "WithSpaces": {
+    "message": "With spaces"
+  },
+  "WithoutSpaces": {
+    "message": "Without spaces"
+  },
+  "Whitespace": {
+    "message": "Whitespace"
+  },
+  "TabsAndNewlines": {
+    "message": "Tabs and newlines"
+  },
+  "LeadingSpaces": {
+    "message": "Leading spaces"
+  },
+  "MixingTabsAndSpaces": {
+    "message": "Mixing tabs and spaces"
+  },
+  "SpacesOnBothSides": {
+    "message": "spaces on both sides"
+  },
+  "JustWhitespace": {
+    "message": "Just whitespace"
+  },
+  "FormatExploits": {
+    "message": "Format exploits"
+  },
+  "SQLInjection": {
+    "message": "SQL Injection"
+  },
+  "JSScriptInjection": {
+    "message": "JS Script Injection"
+  },
+  "JSStringXSSInjectionSingleQuote": {
+    "message": "JS String (XSS) Injection - single quote"
+  },
+  "JSStringXSSInjectionDoubleQuote": {
+    "message": "JS String (XSS) Injection - double quote"
+  },
+  "HTMLParsing": {
+    "message": "HTML parsing"
+  },
+  "BrokenHTML": {
+    "message": "Broken HTML"
+  },
+  "Unicode": {
+    "message": "Unicode"
+  },
+  "Direction": {
+    "message": "Direction"
+  },
+  "RightToLeftOverride": {
+    "message": "Right-to-left override"
+  },
+  "LeftToRightOverride": {
+    "message": "Left-to-right override"
+  },
+  "RTLWithoutOverride": {
+    "message": "RTL without override"
+  },
+  "CursewordWithDirectionSwitchForProfanityFilters": {
+    "message": "curseword with direction switch for profanity filters"
+  },
+  "LookingLikeLatin": {
+    "message": "Looking like latin"
+  },
+  "FakeAppleCom": {
+    "message": "fake apple.com"
+  },
+  "WithCyrilicA": {
+    "message": "with cyrilic a"
+  },
+  "SingleCharset": {
+    "message": "single-charset"
+  },
+  "Confusable": {
+    "message": "Confusable"
+  },
+  "Colon": {
+    "message": "colon"
+  },
+  "SemiColon": {
+    "message": "semi-colon"
+  },
+  "Equals": {
+    "message": "equals"
+  },
+  "DollarSign": {
+    "message": "dollar sign"
+  },
+  "Plus": {
+    "message": "plus"
+  },
+  "Comma": {
+    "message": "comma"
+  },
+  "A": {
+    "message": "a"
+  },
+  "CaseTransforms": {
+    "message": "Case transforms"
+  },
+  "SmallSharpS": {
+    "message": "Small sharp S"
+  },
+  "TurkishIs": {
+    "message": "Turkish Is"
+  },
+  "Length": {
+    "message": "Length"
+  },
+  "VeryLong": {
+    "message": "Very long"
+  },
+  "TwoRows": {
+    "message": "two rows"
+  },
+  "LetterDiacritic": {
+    "message": "Letter + Diacritic"
+  },
+  "SymbolSymbolCombiner": {
+    "message": "Symbol + Symbol combiner"
+  },
+  "CantillationMarks": {
+    "message": "Cantillation marks"
+  },
+  "TextWithInvisibleSpaces": {
+    "message": "Text with invisible spaces"
+  },
+  "MongolianVowelSeparator": {
+    "message": "Mongolian Vowel Separator"
+  },
+  "ZeroWidthJoiner": {
+    "message": "Zero-width joiner"
+  },
+  "ZeroWidthNonJoiner": {
+    "message": "Zero-width non-joiner"
+  },
+  "Emoji": {
+    "message": "Emoji"
+  },
+  "Plain": {
+    "message": "plain"
+  },
+  "VariationSelector": {
+    "message": "+variation selector"
+  },
+  "ZwsCombo": {
+    "message": "+zws combo"
+  },
+  "ZwsComboVariationSelector": {
+    "message": "+zws combo + variation selector"
+  },
+  "Variations": {
+    "message": "Variations"
+  },
+  "RegionalIndicators": {
+    "message": "regional indicators"
+  },
+  "USFlag": {
+    "message": "US Flag"
+  },
+  "ChineseFlag": {
+    "message": "Chinese Flag"
+  },
+  "InvalidCombination": {
+    "message": "invalid combination"
+  },
+  "VariationSelectors": {
+    "message": "variation selectors"
+  },
+  "VS16EmojiStyle": {
+    "message": "VS16 (emoji style)"
+  },
+  "VS15TextStyle": {
+    "message": "VS15 (text style)"
+  },
+  "Nonsense": {
+    "message": "nonsense"
+  },
+  "JustTheVariationSelector": {
+    "message": "just the variation selector"
+  },
+  "VS16InvalidChar": {
+    "message": "VS16 + invalid char"
+  },
+  "VS12Smiley": {
+    "message": "VS15 + smiley"
+  },
+  "OperationalMode": {
+    "message": "Operational mode"
+  },
+  "InjectValue": {
+    "message": "Inject value"
+  },
+  "SimulatePasting": {
+    "message": "Simulate pasting"
+  },
+  "CopyToClipboard": {
+    "message": "Copy to clipboard"
+  },
+  "CustomiseMenus": {
+    "message": "Customise menus"
+  },
+  "HelpSupport": {
+    "message": "Help/Support"
+  }
+}
