@@ -1,18 +1,18 @@
 {
-  "ダミーテキスト": {
-    "ラテン語": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "キリル文字": "Римский император Константин I Великий по достоинству оценил выгодное местоположение приморского Византия, расположенного на стыке Европы и Азии. Кроме того, на решение Константина повлияла неспокойная обстановка в самом Риме: недовольство знати и постоянные распри в борьбе за трон. Император хотел увенчать свою реформаторскую деятельность созданием нового административного центра огромной державы. Закладка города состоялась осенью 324 года, и Константин лично решил обозначить его границы.",
-    "アラビア語": "وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.",
-    "中国語": "北京位於華北平原的西北边缘，背靠燕山，有永定河流经老城西南，毗邻天津市、河北省，是一座有三千余年建城历史、八百六十余年建都史的历史文化名城，历史上有金、元、明、清、中华民国（北洋政府时期）等五个朝代在此定都，以及数个政权建政于此，荟萃了自元明清以来的中华文化，拥有众多历史名胜古迹和人文景观。《不列颠百科全书》将北京形容为全球最伟大的城市之一，而且断言，“这座城市是中国历史上最重要的组成部分。在中国过去的八个世纪里，不论历史是否悠久，几乎北京所有主要建筑都拥有着不可磨灭的民族和历史意义”。北京古迹众多，著名的有故宫、天坛、颐和园、圆明园、北海公园等。",
-    "混合文字": "Lorem ipsum dolor sit amet, Римский император Константин I Великий, 北京位於華北平原的西北边缘",
-    "チェコ語": "Příliš žluťoučký kůň úpěl ďábelské ódy",
-    "タイ語" : "ทดสอบนะจ๊ะ",
-    "ヒンディー語": "एक जल्दी भूरी लोमड़ी आलसी कुत्ते पर कूदता",
-    "Unicode記号": "Iñtërnâtiônàlizætiøn☃💪",
-    "インジェクションや文字化け": "<font color=\"red\">あ</font>&\"'<hr> \"' <>&<B>!\"#$%&'()=~|--^\\@[`{;:]+*},./\\<>?_</B>￠ー－～―‐￣-髙﨑～~^^^<?php echo(\"hello\"); ?>×÷"
+  "Lorems": {
+    "Latin": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "Cyrillic": "Римский император Константин I Великий по достоинству оценил выгодное местоположение приморского Византия, расположенного на стыке Европы и Азии. Кроме того, на решение Константина повлияла неспокойная обстановка в самом Риме: недовольство знати и постоянные распри в борьбе за трон. Император хотел увенчать свою реформаторскую деятельность созданием нового административного центра огромной державы. Закладка города состоялась осенью 324 года, и Константин лично решил обозначить его границы.",
+    "ArabicRTL": "وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.",
+    "Chinese": "北京位於華北平原的西北边缘，背靠燕山，有永定河流经老城西南，毗邻天津市、河北省，是一座有三千余年建城历史、八百六十余年建都史的历史文化名城，历史上有金、元、明、清、中华民国（北洋政府时期）等五个朝代在此定都，以及数个政权建政于此，荟萃了自元明清以来的中华文化，拥有众多历史名胜古迹和人文景观。《不列颠百科全书》将北京形容为全球最伟大的城市之一，而且断言，“这座城市是中国历史上最重要的组成部分。在中国过去的八个世纪里，不论历史是否悠久，几乎北京所有主要建筑都拥有着不可磨灭的民族和历史意义”。北京古迹众多，著名的有故宫、天坛、颐和园、圆明园、北海公园等。",
+    "MixedCharsets": "Lorem ipsum dolor sit amet, Римский император Константин I Великий, 北京位於華北平原的西北边缘",
+    "Czech": "Příliš žluťoučký kůň úpěl ďábelské ódy",
+    "Thai" : "ทดสอบนะจ๊ะ",
+    "Hindi": "एक जल्दी भूरी लोमड़ी आलसी कुत्ते पर कूदता",
+    "UnicodeSymbolsNonLetters": "Iñtërnâtiônàlizætiøn☃💪",
+    "InjectionAndGarbledCharacters": "<font color=\"red\">あ</font>&\"'<hr> \"' <>&<B>!\"#$%&'()=~|--^\\@[`{;:]+*},./\\<>?_</B>￠ー－～―‐￣-髙﨑～~^^^<?php echo(\"hello\"); ?>×÷"
   },
-  "名前": {
-    "ラテン文字": [
+  "Names": {
+    "LatinCharset": [
       "John O'Grady",
       "Peter de Montfort",
       "John James O'Grady",
@@ -28,95 +28,95 @@
       "Abu Karim Muhammad al-Jamil ibn Nidal ibn Abdulaziz al-Filistini",
       "Nguyễn Tấn Dũng"
     ],
-    "名前の長さ": [
+    "NameLength": [
       "Rhoshandiatellyneshiaunneveshenk",
       "StopFortnumAndMasonFoieGras",
       "Stephen O",
       "A Martinez",
       "They"
     ],
-    "異常なアクセント/文字名の長さ": [
+    "UnusualAccentsChars": [
       "Keihanaikukauakahihuliheʻekahaunaele",
       "GoVeg.com",
       "Number 16 Bus Shelter",
       "John Blake Cusack 2.0"
     ],
-    "他の文字": {
-      "日本語": "田中太郎",
-      "日本語 - 東海林": "東海林賢蔵",
-      "寿限無": "寿限無寿限無五劫のすり切れ海砂利水魚の水行末雲来末風来末食う寝るところに住むところやぶら小路のぶら小路パイポパイポパイポのシューリンガンシューリンガンのグーリンダイグーリンダイのポンポコピーのポンポコナの長久命の長助",
-      "簡体字": "泽东",
-      "ロシア男性名": "Борис Николаевич Ельцин",
-      "ロシア女性名": "Наина Иосифовна Ельцина",
-      "ウクライナ女性": "Леся Українка",
-      "タイのニックネーム": "แม",
-      "アラビア語": "ابن خلدون"
+    "OtherCharsets": {
+      "Japanese": "田中太郎",
+      "Japanese Tōkairin": "東海林賢蔵",
+      "Jugem": "寿限無寿限無五劫のすり切れ海砂利水魚の水行末雲来末風来末食う寝るところに住むところやぶら小路のぶら小路パイポパイポパイポのシューリンガンシューリンガンのグーリンダイグーリンダイのポンポコピーのポンポコナの長久命の長助",
+      "ZeDong": "泽东",
+      "RussianMale": "Борис Николаевич Ельцин",
+      "RussianFemale": "Наина Иосифовна Ельцина",
+      "UkrainianFemale": "Леся Українка",
+      "ThaiNickname": "แม",
+      "Arabic": "ابن خلدون"
     },
-    "無効な文字列": [
+    "CommonlyThoughtAsInvalid": [
       "Null",
       "nil",
       "false",
       "Tom Test",
       "Jeff Sample"
     ],
-    "Unicode case folding": "ᴮᴵᴳᴮᴵᴿᴰ",
-    "ジェームズボンド (ミドルネーム付き)": "James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty’s Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"
+    "UnicodeCaseFolding": "ᴮᴵᴳᴮᴵᴿᴰ",
+    "JamesBondWithMiddleNames": "James Dr No From Russia with Love Goldfinger Thunderball You Only Live Twice On Her Majesty’s Secret Service Diamonds Are Forever Live and Let Die The Man with the Golden Gun The Spy Who Loved Me Moonraker For Your Eyes Only Octopussy A View to a Kill The Living Daylights Licence to Kill Golden Eye Tomorrow Never Dies The World Is Not Enough Die Another Day Casino Royale Bond"
   },
-  "郵便番号": {
-    "アルファベットと数字（GB）": "EC11AA",
-    "スペースあり（GB）": "EC1 1AA",
-    "4桁の数字（アーラウ、CH）": "5004",
-    "3桁の数字（クヴィヴィク、FO）":"340",
-    "10桁の数字（テヘラン、IR）": "1193653471",
-    "7桁の数字（ハイフンなし、日本）": "1000001",
-    "7桁の数字（ハイフンあり、日本）": "100-0001"
+  "PostCodes": {
+    "AlphanumericGB": "EC11AA",
+    "WithSpacesGB": "EC1 1AA",
+    "4DigitsAarauCH": "5004",
+    "3DigitsKvivikFO":"340",
+    "10DigitsTehranIR": "1193653471",
+    "WithoutHyphen7DigitsJapan": "1000001",
+    "WithHyphen7DigitsJapan": "100-0001"
   },
-  "住所": {
-    "スカンジナビアの文字": "Ærøskøbing",
-    "ウェールズ語": "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch",
-    "1文字 - ノルウェー語": "Å",
-    "1文字 - フランス語": "Y",
-    "長い住所（日本）": "京都府京都市東山区三条通南二筋目白川筋西入ル二丁目北木之元町"
+  "Cities": {
+    "ScandinavianLetters": "Ærøskøbing",
+    "Welsh": "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch",
+    "SingleLetterNorwegian": "Å",
+    "SingleLetterFrance": "Y",
+    "LongAddressJapan": "京都府京都市東山区三条通南二筋目白川筋西入ル二丁目北木之元町"
   },
-  "Eメールアドレス": {
-    "有効" :{
-      "シンプル": "email@domain.com",
-      "アドレスにドット": "firstname.lastname@domain.com",
-      "サブドメイン": "email@subdomain.domain.com",
-      "アドレスにプラス記号": "firstname+lastname@domain.com",
-      "数字ドメイン": "email@123.123.123.123",
-      "IPアドレス周りの角括弧": "email@[123.123.123.123]",
-      "アドレス周りの不要な引用符": "\"email\"@domain.com",
-      "アドレス周りの必要な引用符": "\"email..email\"@domain.com",
-      "数字アドレス": "1234567890@domain.com",
-      "ドメインにダッシュ": "email@domain-one.com",
-      "アンダースコア": "_______@domain.com",
-      "4文字以上のTLD": "email@domain.name",
-      "2文字のTLD": "email@domain.co.jp",
-      "アドレスにダッシュ": "firstname-lastname@domain.com",
-      "イントラネット": "name@localhost",
-      "非ASCIIメール" : "nathan@学生优惠.com"
+  "EmailAddresses": {
+    "Valid" :{
+      "Simple": "email@domain.com",
+      "DotInTheAddress": "firstname.lastname@domain.com",
+      "Subdomain": "email@subdomain.domain.com",
+      "PlusInAddress": "firstname+lastname@domain.com",
+      "NumericDomain": "email@123.123.123.123",
+      "SquareBracketAroundIPAddress": "email@[123.123.123.123]",
+      "UnnecessaryQuotesAroundAddress": "\"email\"@domain.com",
+      "NecessaryQuotesAroundAddress": "\"email..email\"@domain.com",
+      "NumericAddress": "1234567890@domain.com",
+      "DashInDomain": "email@domain-one.com",
+      "Underscore": "_______@domain.com",
+      "3CharTLD": "email@domain.name",
+      "2CharTLD": "email@domain.co.jp",
+      "DashInAddress": "firstname-lastname@domain.com",
+      "Intranet": "name@localhost",
+      "NonAsciiEmail" : "nathan@学生优惠.com"
     },
-    "無効": {
-      "アットマークまたはドメインなし": "plainaddress",
-      "アットマークがない": "email.domain.com",
-      "アドレスがない": "@domain.com",
-      "役に立たないデータ": "#@%^%#$@#$@#.com",
-      "アドレス帳からのコピー/ペーストに名前が含まれている": "Joe Smith <email@domain.com>",
-      "余計なテキスト": "email@domain.com (Joe Smith)",
-      "二つのアットマーク": "email@domain@domain.com",
-      "アドレスの先頭にドット": ".email@domain.com",
-      "アドレスの末尾にドット": "email.@domain.com",
-      "複数のドット": "email..email@domain.com",
-      "アドレスにユニコード文字": "あいうえお@domain.com",
-      "ドメインの先頭にダッシュ": "email@-domain.com",
-      "ドメインの先頭にドット": "email@.domain.com",
-      "無効なIPフォーマット": "email@111.222.333.44444",
-      "ドメイン内の複数のドット": "email@domain..com"
+    "Invalid": {
+      "NoAtOrDomain": "plainaddress",
+      "MissingAt": "email.domain.com",
+      "MissingAddress": "@domain.com",
+      "Garbage": "#@%^%#$@#$@#.com",
+      "CopyPasteFromAddressBookWithName": "Joe Smith <email@domain.com>",
+      "SuperfluousText": "email@domain.com (Joe Smith)",
+      "TwoAt": "email@domain@domain.com",
+      "LeadingDotInAddress": ".email@domain.com",
+      "TrailingDotInAddress": "email.@domain.com",
+      "MultipleDots": "email..email@domain.com",
+      "UnicodeCharsInAddress": "あいうえお@domain.com",
+      "LeadingDashInDomain": "email@-domain.com",
+      "LeadingDotInDomain": "email@.domain.com",
+      "InvalidIPFormat": "email@111.222.333.44444",
+      "MultipleDotsInTheDomain": "email@domain..com"
     }
   },
-  "URL": {
-    "有効": [
+  "URLs": {
+    "Valid": [
       "www.mysite.com",
       "mysite.com",
       "http://www.mysite.com",
@@ -125,7 +125,7 @@
       "ftp://mysite.com",
       "https://www.xn--80ak6aa92e.com/"
     ],
-    "無効": [
+    "Invalid": [
       "http//www.mysite.com",
       "http:/www.mysite.com",
       "://www.mysite.com",
@@ -134,7 +134,7 @@
       "mysite"
     ]
   },
-  "数字": [
+  "Numbers": [
     "0",
     "32767", "32768", "32769",
     "65535", "65536", "65537",
@@ -143,61 +143,61 @@
     "1E-16", "-1", "0.0001",
     "1,234,567", "1.234.567,89"
   ],
-  "金額": ["5000", "$5,000", "$5 000", "$5,000.00"],
-  "通貨": {
-    "小数点なし": "JPY",
-    "小数点以下3桁": "KWD"
+  "Amounts": ["5000", "$5,000", "$5 000", "$5,000.00"],
+  "Currencies": {
+    "NoDecimals": "JPY",
+    "3Decimals": "KWD"
   },
-  "支払い": {
-     "オンライン決済": {
-      "クレジットカード": {
-        "American Express": "370000000000002",
+  "PaymentCards": {
+    "AuthorizeNet": {
+      "CreditCard": {
+        "AmericanExpress": "370000000000002",
         "Discover": "6011000000000012",
         "JCB": "3088000000000017",
-        "Diners Club/ Carte Blanch":"38000000000006",
+        "DinersClubCarteBlanch":"38000000000006",
         "Visa":"4007000000027",
         "MasterCard":"5424000000000015"
       },
-      "郵便番号": {
-        "拒否": "46282",
-        "AVS無効": "46203",
-        "AVS利用不可": "46207",
-        "米国外の銀行": "46204"
+      "ZipCode": {
+        "Declined": "46282",
+        "AVSInvalid": "46203",
+        "AVSUnavailable": "46207",
+        "NonUSBank": "46204"
       },
-      "セキュリティコード": {
-        "成功": "900",
-        "一致しない": "901",
-        "未処理": "46207"
+      "CVV": {
+        "Successful": "900",
+        "DoesNotMatch": "901",
+        "NotProcessed": "46207"
       }
     },
     "Braintree": {
-      "有効なクレジットカード": {
-        "American Express": "378282246310005",
+      "ValidCreditCard": {
+        "AmericanExpress": "378282246310005",
         "Discover": "6011111111111117",
         "MasterCard": "5555555555554444",
         "Visa":"4111111111111111"
       },
-      "無効なクレジットカード": {
+      "InvalidCreditCard": {
         "Visa": "4000111111111115",
         "MasterCard": "5105105105105100",
-        "American Express": "378734493671000",
+        "AmericanExpress": "378734493671000",
         "JCB": "3566002020360505"
       }
     },
     "Cybersource": {
-      "クレジットカード": {
+      "CreditCard": {
         "Visa":"4111111111111111",
         "MasterCard":"5555555555554444",
-        "American Express":"378282246310005",
+        "AmericanExpress":"378282246310005",
         "Discover":"6011111111111117",
         "JCB": "3566111111111113"
       }
     },
-    "Payflow Pro": {
-      "クレジットカード": {
-        "American Express": "378282246310005",
-        "American Express Corporate": "378734493671000",
-        "Diners Club": "30569309025904",
+    "PayflowPro": {
+      "CreditCard": {
+        "AmericanExpress": "378282246310005",
+        "AmericanExpressCorporate": "378734493671000",
+        "DinersClub": "30569309025904",
         "Discover": "6011111111111117",
         "JCB": "3530111333300000",
         "MasterCard":"5555555555554444",
@@ -205,29 +205,29 @@
       }
     },
     "Paypal": {
-      "Dankort PBS" : "5019717010103742",
-      "American Express" : "378282246310005",
+      "DankortPBS" : "5019717010103742",
+      "AmericanExpress" : "378282246310005",
       "Visa" : "4111111111111111",
       "Discover" : "6011000990139424",
-      "Visa (short)" : "4222222222222",
-      "Switch/Solo (Paymentech)" : "6331101999990016",
-      "Australian BankCard" : "5610591081018250",
-      "Dankort PBS (short)" : "76009244561",
+      "VisaShort" : "4222222222222",
+      "SwitchSoloPaymentech" : "6331101999990016",
+      "AustralianBankCard" : "5610591081018250",
+      "DankortPBSShort" : "76009244561",
       "MasterCard" : "5555555555554444",
-      "American Express Corporate" : "378734493671000",
+      "AmericanExpressCorporate" : "378734493671000",
       "JCB" : "3566002020360505"
     },
     "Spreedly": {
-      "有効": {
+      "Valid": {
         "Visa": "4111111111111111",
         "MasterCard": "5555555555554444",
-        "American Express":"378282246310005",
+        "AmericanExpress":"378282246310005",
         "Discover":"6011111111111117",
-        "Diners Club":"30569309025904",
+        "DinersClub":"30569309025904",
         "JCB":"3530111333300000"
       },
-      "Boundary Workflows": {
-        "Successful charge, but...": {
+      "BoundaryWorkflows": {
+        "SuccessfulChargeBut": {
           "funds added directly to available balance (bypassing pending)":"4000000000000077",
           "address_line1_check and address_zip_check fail":"4000000000000010",
           "address_line1_check fail":"4000000000000028",
@@ -235,7 +235,7 @@
           "address_zip_check and address_line1_check unavailable":"4000000000000044",
           "CVC check will fail (if CVC entered)":"4000000000000101"
         },
-        "Charge declined .." :{
+        "ChargeDeclined" :{
           "Visa":"4012888888881881",
           "Mastercard":"5105105105105100",
           "American Express":"371449635398431"
@@ -243,7 +243,7 @@
       }
     },
     "Stripe": {
-      "有効": {
+      "Valid": {
         "Visa": "4242424242424242",
         "Visa (debit)": "4000056655665556",
         "MasterCard": "5555555555554444",
@@ -254,8 +254,8 @@
         "Diners Club":"30569309025904",
         "JCB":"3530111333300000"
       },
-      "Boundary Workflows": {
-        "Successful charge, but...": {
+      "BoundaryWorkflows": {
+        "SuccessfulChargeBut": {
           "funds added directly to available balance (bypassing pending)":"4000000000000077",
           "address_line1_check and address_zip_check fail":"4000000000000010",
           "address_line1_check fail":"4000000000000028",
@@ -263,7 +263,7 @@
           "address_zip_check and address_line1_check unavailable":"4000000000000044",
           "CVC check will fail (if CVC entered)":"4000000000000101"
         },
-        "Charge declined and.." :{
+        "ChargeDeclined" :{
           "Card still added to customer":"4000000000000341",
           "Card declined":"4000000000000002",
           "Fraud":"4100000000000019",
@@ -274,22 +274,22 @@
       }
     },
     "Vantiv": {
-      "クレジットカード": {
+      "CreditCard": {
         "Visa":"4457010140000141",
         "MasterCard":"5112000100000003",
         "Discover":"6011010140000004",
         "American Express":"375001000000005"
       },
-      "セキュリティコード" :{
+      "CVV" :{
         "Fail": "352",
-        "Fail Due to Security Mismatch": "358",
-        "Do Not Honor":"349",
-        "Generic Decline":"350"
+        "FailDueToSecurityMismatch": "358",
+        "DoNotHonor":"349",
+        "GenericDecline":"350"
       }
     }
   },
-  "テキストの長さ": {
-    "スペースあり": {
+  "TextSize": {
+    "WithSpaces": {
       "128b": { "_type": "size", "size": "128", "template": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
       "129b": { "_type": "size", "size": "129", "template": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
       "256b": { "_type": "size", "size": "256", "template": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
@@ -301,7 +301,7 @@
       "64K": { "_type": "size", "size": "65536", "template": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
       "64K + 1": { "_type": "size", "size": "65537", "template": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
     },
-    "スペースなし": {
+    "WithoutSpaces": {
       "128b": { "_type": "size", "size": "128", "template": "0123456789" },
       "129b": { "_type": "size", "size": "129", "template": "0123456789" },
       "256b": { "_type": "size", "size": "256", "template": "0123456789" },
@@ -314,84 +314,84 @@
       "64K + 1": { "_type": "size", "size": "65537", "template": "0123456789" }
     }
   },
-  "スペース": {
-    "タブと改行": "Contains\tTabs\nAnd\tNewlines",
-    "行頭の空白": "  leading spaces",
-    "タブとスペース": "\t leading tabs and spaces",
-    "両端のスペース":" Space on both sides ",
-    "スペースのみ": "\t \t\n \n "
+  "Whitespace": {
+    "TabsAndNewlines": "Contains\tTabs\nAnd\tNewlines",
+    "LeadingSpaces": "  leading spaces",
+    "MixingTabsAndSpaces": "\t leading tabs and spaces",
+    "SpacesOnBothSides":" Space on both sides ",
+    "JustWhitespace": "\t \t\n \n "
   },
-  "脆弱性": {
-    "SQLインジェクション": "Robert'); DROP TABLE Students;--",
-    "JS Scriptインジェクション": "Nice site,  I think I'll take it. <script>alert('Executing JS')</script>",
-    "JS String (XSS)インジェクション - シングルクォーテーション": "'-prompt()-'",
-    "JS String (XSS)インジェクション - ダブルクォーテーション": "\"-prompt()-\"",
-    "HTMLインジェクション": "<font color=\"red\">Hello there</font>",
-    "破損したHTML": "<i><b>Bold</i></b>"
+  "FormatExploits": {
+    "SQLInjection": "Robert'); DROP TABLE Students;--",
+    "JSScriptInjection": "Nice site,  I think I'll take it. <script>alert('Executing JS')</script>",
+    "JSStringXSSInjectionSingleQuote": "'-prompt()-'",
+    "JSStringXSSInjectionDoubleQuote": "\"-prompt()-\"",
+    "HTMLParsing": "<blink>Hello there</blink>",
+    "BrokenHTML": "<i><b>Bold</i></b>"
   },
   "Unicode": {
-    "方向": {
-      "右から左のオーバーライド": "1234\u202E1234",
-      "左から右のオーバーライド": "אבגד\u202Dאבגד",
-      "オーバーライドなしのRTL": "אבגד",
-      "プロファニティフィルター用の方向切り替えを含む呪文": "\u202ekcuf\u202D you"
+    "Direction": {
+      "RightToLeftOverride": "1234\u202E1234",
+      "LeftToRightOverride": "אבגד\u202Dאבגד",
+      "RTLWithoutOverride": "אבגד",
+      "CursewordWithDirectionSwitchForProfanityFilters": "\u202ekcuf\u202D you"
     },
-    "ラテン文字のような見た目": {
-      "偽のapple.com": "https://аррӏе.com",
-      "キリル文字のaを含む": "https://аpple.com",
-      "単一文字セット": "https://еріс.com/"
+    "LookingLikeLatin": {
+      "FakeAppleCom": "https://аррӏе.com",
+      "WithCyrilicA": "https://аpple.com",
+      "SingleCharset": "https://еріс.com/"
     },
-    "紛らわしい": {
-      "コロン": "\uFF1A\u02D0\u02F8\u0589\u1361\u16EC\u205A\u2236\u2806\uFE13\uFE55",
-      "セミコロン": "\uFF1B\u037E\uFE14\uFE54",
-      "等号": "\uFF1D\u2550\u268C\uFE66",
-      "ドル記号": "\uFF04\uFE69",
-      "プラス": "\uFF0B\u16ED\uFE62",
-      "カンマ": "\uFF0C\u02CF\u16E7\u201A",
-      "a": "\u00AA\u1D43\u1D45\u2090\u24D0\uFF41"
+    "Confusable": {
+      "Colon": "\uFF1A\u02D0\u02F8\u0589\u1361\u16EC\u205A\u2236\u2806\uFE13\uFE55",
+      "SemiColon": "\uFF1B\u037E\uFE14\uFE54",
+      "Equals": "\uFF1D\u2550\u268C\uFE66",
+      "DollarSign": "\uFF04\uFE69",
+      "Plus": "\uFF0B\u16ED\uFE62",
+      "Comma": "\uFF0C\u02CF\u16E7\u201A",
+      "A": "\u00AA\u1D43\u1D45\u2090\u24D0\uFF41"
     },
-    "大文字小文字変換": {
-      "小文字の鋭いS": "\u00DF",
-      "トルコ語のI": "\u0069\u0049\u0130\u0131"
+    "CaseTransforms": {
+      "SmallSharpS": "\u00DF",
+      "TurkishIs": "\u0069\u0049\u0130\u0131"
     },
-    "長さ": {
-      "非常に長い": "\uFDFD",
-      "二行": "N\u036BO\u036C",
-      "文字+ダイアクリティカルマーク": "a\u0341",
-      "記号+記号の組み合わせ": "\u2190\u20DD",
-      "カンティレーションマーク": "\u059F\u05A8\u05AAA",
-      "ナンセンス": {
-        "文字+記号の組み合わせ": "A\u20DD",
-        "記号+ダイアクリティカルマーク": "\u2190\u0341",
-        "ダイアクリティカルマークのみ": "\u0341",
-        "記号の組み合わせのみ": "\u0341",
-        "カンティレーションマークのみ": "\u059F"
+    "Length": {
+      "VeryLong": "\uFDFD",
+      "TwoRows": "N\u036BO\u036C",
+      "LetterDiacritic": "a\u0341",
+      "SymbolSymbolCombiner": "\u2190\u20DD",
+      "CantillationMarks": "\u059F\u05A8\u05AAA",
+      "Nonsense": {
+        "Letter + Symbol combiner": "A\u20DD",
+        "Symbol + Diacritic": "\u2190\u0341",
+        "only diacritic": "\u0341",
+        "only symbol combiner": "\u0341",
+        "only cantillation mark": "\u059F"
       },
-      "目に見えない空間のあるテキスト": {
-        "モンゴル母音分離符号": "two\u180Ewords",
-        "ゼロ幅接続子": "two\u200Dwords",
-        "ゼロ幅非接続子": "two\u200Cwords"
+      "TextWithInvisibleSpaces": {
+        "MongolianVowelSeparator": "two\u180Ewords",
+        "ZeroWidthJoiner": "two\u200Dwords",
+        "ZeroWidthNonJoiner": "two\u200Cwords"
       }
     },
-    "絵文字": {
-      "プレーン": "\uD83D\uDC69",
-      "変種選択子付き": "\ud83d\udc69\ud83c\udfff",
-      "zwsコンボ": "\uD83D\uDC69\u200d\ud83c\udf73",
-      "zwsコンボ + 変種選択子付き": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf73"
+    "Emoji": {
+      "Plain": "\uD83D\uDC69",
+      "VariationSelector": "\ud83d\udc69\ud83c\udfff",
+      "ZwsCombo": "\uD83D\uDC69\u200d\ud83c\udf73",
+      "ZwsComboVariationSelector": "\ud83d\udc69\ud83c\udfff\u200d\ud83c\udf73"
     },
-    "バリエーション": {
-      "地域指標" :{
-        "アメリカ国旗": "\ud83c\uddfa\ud83c\uddf8",
-        "中国国旗": "\ud83c\udde8\ud83c\uddf3",
-        "無効な組み合わせ": "\ud83c\uddfa\ud83c\uddf3"
+    "Variations": {
+      "RegionalIndicators" :{
+        "USFlag": "\ud83c\uddfa\ud83c\uddf8",
+        "ChineseFlag": "\ud83c\udde8\ud83c\uddf3",
+        "InvalidCombination": "\ud83c\uddfa\ud83c\uddf3"
       },
-      "変種選択子": {
-        "VS16 (絵文字スタイル)": "\u2764\uFE0F",
-        "VS15 (テキストスタイル)": "\u2764\uFE0E",
-        "ナンセンス": {
-          "変種選択子のみ": "\uFE0F",
-          "VS16 + 無効な文字": "A\uFE0F",
-          "VS15 + スマイリー": "\uD83D\uDE01\uFE0E"
+      "VariationSelectors": {
+        "VS16EmojiStyle": "\u2764\uFE0F",
+        "VS15TextStyle": "\u2764\uFE0E",
+        "Nonsense": {
+          "just the variation selector": "\uFE0F",
+          "VS16 + invalid char": "A\uFE0F",
+          "VS15 + smiley": "\uD83D\uDE01\uFE0E"
         }
       }
     }

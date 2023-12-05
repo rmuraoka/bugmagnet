@@ -10,6 +10,7 @@ new ContextMenu(
 	new ChromeBrowserInterface(chrome),
 	new ChromeMenuBuilder(chrome),
 	processMenuObject,
-	!isFirefox
+	!isFirefox,
+	chrome
 ).init();
 

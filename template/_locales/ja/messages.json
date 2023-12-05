@@ -1,0 +1,581 @@
+{
+  "Lorems": {
+    "message": "ダミーテキスト"
+  },
+  "Latin": {
+    "message": "ラテン語"
+  },
+  "Cyrillic": {
+    "message": "キリル文字"
+  },
+  "ArabicRTL": {
+    "message": "アラビア語"
+  },
+  "Chinese": {
+    "message": "中国語"
+  },
+  "MixedCharsets": {
+    "message": "混合文字"
+  },
+  "Czech": {
+    "message": "チェコ語"
+  },
+  "Thai": {
+    "message": "タイ語"
+  },
+  "Hindi": {
+    "message": "ヒンディー語"
+  },
+  "UnicodeSymbolsNonLetters": {
+    "message": "Unicode記号"
+  },
+  "InjectionAndGarbledCharacters": {
+    "message": "インジェクションや文字化け"
+  },
+  "Names": {
+    "message": "名前"
+  },
+  "LatinCharset": {
+    "message": "ラテン文字"
+  },
+  "NameLength": {
+    "message": "名前の長さ"
+  },
+  "UnusualAccentsChars": {
+    "message": "異常なアクセント/文字名の長さ"
+  },
+  "OtherCharsets": {
+    "message": "他の文字"
+  },
+  "Japanese": {
+    "message": "日本語"
+  },
+  "JapaneseTokairin": {
+    "message": "日本語 - 東海林"
+  },
+  "Jugem": {
+    "message": "寿限無"
+  },
+  "ZeDong": {
+    "message": "簡体字"
+  },
+  "RussianMale": {
+    "message": "ロシア男性"
+  },
+  "RussianFemale": {
+    "message": "ロシア女性"
+  },
+  "UkrainianFemale": {
+    "message": "ウクライナ女性"
+  },
+  "ThaiNickname": {
+    "message": "タイのニックネーム"
+  },
+  "Arabic": {
+    "message": "アラビア語"
+  },
+  "CommonlyThoughtAsInvalid": {
+    "message": "無効な文字列"
+  },
+  "UnicodeCaseFolding": {
+    "message": "Unicodeケースフォールディング"
+  },
+  "JamesBondWithMiddleNames": {
+    "message": "ジェームズボンド (ミドルネーム付き)"
+  },
+  "PostCodes": {
+    "message": "郵便番号"
+  },
+  "AlphanumericGB": {
+    "message": "アルファベットと数字（GB）"
+  },
+  "WithSpacesGB": {
+    "message": "スペースあり（GB）"
+  },
+  "4DigitsAarauCH": {
+    "message": "4桁の数字（アーラウ、CH）"
+  },
+  "3DigitsKvivikFO": {
+    "message": "3桁の数字（クヴィヴィク、FO）"
+  },
+  "10DigitsTehranIR": {
+    "message": "10桁の数字（テヘラン、IR）"
+  },
+  "WithoutHyphen7DigitsJapan": {
+    "message": "7桁の数字（ハイフンなし、東京、日本）"
+  },
+  "WithHyphen7DigitsJapan": {
+    "message": "7桁の数字（ハイフンあり、東京、日本）"
+  },
+  "Cities": {
+    "message": "住所"
+  },
+  "ScandinavianLetters": {
+    "message": "スカンジナビアの文字"
+  },
+  "Welsh": {
+    "message": "ウェールズ語"
+  },
+  "SingleLetterNorwegian": {
+    "message": "1文字 - ノルウェー語"
+  },
+  "SingleLetterFrance": {
+    "message": "1文字 - フランス語"
+  },
+  "LongAddressJapan": {
+    "message": "長い住所（日本）"
+  },
+  "EmailAddresses": {
+    "message": "メールアドレス"
+  },
+  "Valid": {
+    "message": "有効"
+  },
+  "Simple": {
+    "message": "シンプル"
+  },
+  "DotInTheAddress": {
+    "message": "アドレスにドット"
+  },
+  "Subdomain": {
+    "message": "サブドメイン"
+  },
+  "PlusInAddress": {
+    "message": "アドレスにプラス記号"
+  },
+  "NumericDomain": {
+    "message": "数字ドメイン"
+  },
+  "SquareBracketAroundIPAddress": {
+    "message": "IPアドレス周りの角括弧"
+  },
+  "UnnecessaryQuotesAroundAddress": {
+    "message": "アドレス周りの不要な引用符"
+  },
+  "NecessaryQuotesAroundAddress": {
+    "message": "アドレス周りの必要な引用符"
+  },
+  "NumericAddress": {
+    "message": "数字アドレス"
+  },
+  "DashInDomain": {
+    "message": "ドメインにダッシュ"
+  },
+  "Underscore": {
+    "message": "アンダースコア"
+  },
+  "3CharTLD": {
+    "message": "4文字以上のTLD"
+  },
+  "2CharTLD": {
+    "message": "2文字のTLD"
+  },
+  "DashInAddress": {
+    "message": "アドレスにダッシュ"
+  },
+  "Intranet": {
+    "message": "イントラネット"
+  },
+  "NonAsciiEmail": {
+    "message": "非ASCIIメール"
+  },
+  "Invalid": {
+    "message": "無効"
+  },
+  "NoAtOrDomain": {
+    "message": "アットマークまたはドメインなし"
+  },
+  "MissingAt": {
+    "message": "アットマークがない"
+  },
+  "MissingAddress": {
+    "message": "アドレスがない"
+  },
+  "Garbage": {
+    "message": "役に立たないデータ"
+  },
+  "CopyPasteFromAddressBookWithName": {
+    "message": "アドレス帳からのコピー/ペーストに名前が含まれている"
+  },
+  "SuperfluousText": {
+    "message": "余計なテキスト"
+  },
+  "TwoAt": {
+    "message": "二つのアットマーク"
+  },
+  "LeadingDotInAddress": {
+    "message": "アドレスの先頭にドット"
+  },
+  "TrailingDotInAddress": {
+    "message": "アドレスの末尾にドット"
+  },
+  "MultipleDots": {
+    "message": "複数のドット"
+  },
+  "UnicodeCharsInAddress": {
+    "message": "アドレスにユニコード文字"
+  },
+  "LeadingDashInDomain": {
+    "message": "ドメインの先頭にダッシュ"
+  },
+  "LeadingDotInDomain": {
+    "message": "ドメインの先頭にドット"
+  },
+  "InvalidIPFormat": {
+    "message": "無効なIPフォーマット"
+  },
+  "MultipleDotsInTheDomain": {
+    "message": "ドメイン内の複数のドット"
+  },
+  "URLs": {
+    "message": "URL"
+  },
+  "Numbers": {
+    "message": "数字"
+  },
+  "Amounts": {
+    "message": "金額"
+  },
+  "Currencies": {
+    "message": "通貨"
+  },
+  "NoDecimals": {
+    "message": "小数点なし"
+  },
+  "3Decimals": {
+    "message": "小数点以下3桁"
+  },
+  "PaymentCards": {
+    "message": "支払い"
+  },
+  "AuthorizeNet": {
+    "message": "Authorize.net"
+  },
+  "CreditCard": {
+    "message": "クレジットカード"
+  },
+  "AmericanExpress": {
+    "message": "American Express"
+  },
+  "Discover": {
+    "message": "Discover"
+  },
+  "JCB": {
+    "message": "JCB"
+  },
+  "DinersClubCarteBlanch": {
+    "message": "Diners Club/ Carte Blanch"
+  },
+  "Visa": {
+    "message": "Visa"
+  },
+  "MasterCard": {
+    "message": "MasterCard"
+  },
+  "ZipCode": {
+    "message": "郵便番号"
+  },
+  "Declined": {
+    "message": "拒否"
+  },
+  "AVSInvalid": {
+    "message": "AVS無効"
+  },
+  "AVSUnavailable": {
+    "message": "AVS利用不可"
+  },
+  "NonUSBank": {
+    "message": "米国外の銀行"
+  },
+  "CVV": {
+    "message": "セキュリティコード"
+  },
+  "Successful": {
+    "message": "成功"
+  },
+  "DoesNotMatch": {
+    "message": "一致しない"
+  },
+  "NotProcessed": {
+    "message": "未処理"
+  },
+  "Braintree": {
+    "message": "Braintree"
+  },
+  "ValidCreditCard": {
+    "message": "有効なクレジットカード"
+  },
+  "InvalidCreditCard": {
+    "message": "無効なクレジットカード"
+  },
+  "Cybersource": {
+    "message": "Cybersource"
+  },
+  "PayflowPro": {
+    "message": "Payflow Pro"
+  },
+  "Paypal": {
+    "message": "Paypal"
+  },
+  "DankortPBS": {
+    "message": "Dankort PBS"
+  },
+  "VisaShort": {
+    "message": "Visa (short)"
+  },
+  "SwitchSoloPaymentech": {
+    "message": "Switch/Solo (Paymentech)"
+  },
+  "AustralianBankCard": {
+    "message": "Australian BankCard"
+  },
+  "DankortPBSShort": {
+    "message": "Dankort PBS (short)"
+  },
+  "AmericanExpressCorporate": {
+    "message": "American Express Corporate"
+  },
+  "Spreedly": {
+    "message": "Spreedly"
+  },
+  "BoundaryWorkflows": {
+    "message": "Boundary Workflows"
+  },
+  "SuccessfulChargeBut": {
+    "message": "Successful charge, but..."
+  },
+  "ChargeDeclined": {
+    "message": "Charge declined..."
+  },
+  "Stripe": {
+    "message": "Stripe"
+  },
+  "VisaDebit": {
+    "message": "Visa (debit)"
+  },
+  "Vantiv": {
+    "message": "Vantiv"
+  },
+  "Fail": {
+    "message": "Fail"
+  },
+  "FailDueToSecurityMismatch": {
+    "message": "Fail Due to Security Mismatch"
+  },
+  "DoNotHonor": {
+    "message": "Do Not Honor"
+  },
+  "GenericDecline": {
+    "message": "Generic Decline"
+  },
+  "TextSize": {
+    "message": "テキストの長さ"
+  },
+  "WithSpaces": {
+    "message": "スペースあり"
+  },
+  "WithoutSpaces": {
+    "message": "スペースなし"
+  },
+  "Whitespace": {
+    "message": "スペース"
+  },
+  "TabsAndNewlines": {
+    "message": "タブと改行"
+  },
+  "LeadingSpaces": {
+    "message": "行頭の空白"
+  },
+  "MixingTabsAndSpaces": {
+    "message": "タブとスペース"
+  },
+  "SpacesOnBothSides": {
+    "message": "両端のスペース"
+  },
+  "JustWhitespace": {
+    "message": "スペースのみ"
+  },
+  "FormatExploits": {
+    "message": "脆弱性"
+  },
+  "SQLInjection": {
+    "message": "SQLインジェクション"
+  },
+  "JSScriptInjection": {
+    "message": "JS Scriptインジェクション"
+  },
+  "JSStringXSSInjectionSingleQuote": {
+    "message": "JS String (XSS) インジェクション - シングルクォーテーション"
+  },
+  "JSStringXSSInjectionDoubleQuote": {
+    "message": "JS String (XSS) インジェクション - ダブルクォーテーション"
+  },
+  "HTMLParsing": {
+    "message": "HTMLインジェクション"
+  },
+  "BrokenHTML": {
+    "message": "破損したHTML"
+  },
+  "Unicode": {
+    "message": "Unicode"
+  },
+  "Direction": {
+    "message": "方向"
+  },
+  "RightToLeftOverride": {
+    "message": "右から左のオーバーライド"
+  },
+  "LeftToRightOverride": {
+    "message": "左から右のオーバーライド"
+  },
+  "RTLWithoutOverride": {
+    "message": "オーバーライドなしのRTL"
+  },
+  "CursewordWithDirectionSwitchForProfanityFilters": {
+    "message": "プロファニティフィルター用の方向切り替えを含む呪文"
+  },
+  "LookingLikeLatin": {
+    "message": "ラテン文字のような見た目"
+  },
+  "FakeAppleCom": {
+    "message": "偽のapple.com"
+  },
+  "WithCyrilicA": {
+    "message": "キリル文字のaを含む"
+  },
+  "SingleCharset": {
+    "message": "単一文字セット"
+  },
+  "Confusable": {
+    "message": "紛らわしい"
+  },
+  "Colon": {
+    "message": "コロン"
+  },
+  "SemiColon": {
+    "message": "セミコロン"
+  },
+  "Equals": {
+    "message": "等号"
+  },
+  "DollarSign": {
+    "message": "ドル記号"
+  },
+  "Plus": {
+    "message": "プラス"
+  },
+  "Comma": {
+    "message": "カンマ"
+  },
+  "A": {
+    "message": "a"
+  },
+  "CaseTransforms": {
+    "message": "大文字小文字変換"
+  },
+  "SmallSharpS": {
+    "message": "小文字の鋭いS"
+  },
+  "TurkishIs": {
+    "message": "トルコ語のI"
+  },
+  "Length": {
+    "message": "長さ"
+  },
+  "VeryLong": {
+    "message": "非常に長い"
+  },
+  "TwoRows": {
+    "message": "二行"
+  },
+  "LetterDiacritic": {
+    "message": "文字+ダイアクリティカルマーク"
+  },
+  "SymbolSymbolCombiner": {
+    "message": "記号+記号の組み合わせ"
+  },
+  "CantillationMarks": {
+    "message": "カンティレーションマーク"
+  },
+  "TextWithInvisibleSpaces": {
+    "message": "目に見えない空間のあるテキスト"
+  },
+  "MongolianVowelSeparator": {
+    "message": "モンゴル母音分離符号"
+  },
+  "ZeroWidthJoiner": {
+    "message": "ゼロ幅接続子"
+  },
+  "ZeroWidthNonJoiner": {
+    "message": "ゼロ幅非接続子"
+  },
+  "Emoji": {
+    "message": "絵文字"
+  },
+  "Plain": {
+    "message": "プレーン"
+  },
+  "VariationSelector": {
+    "message": "変種選択子付き"
+  },
+  "ZwsCombo": {
+    "message": "zwsコンボ"
+  },
+  "ZwsComboVariationSelector": {
+    "message": "zwsコンボ + 変種選択子付き"
+  },
+  "Variations": {
+    "message": "バリエーション"
+  },
+  "RegionalIndicators": {
+    "message": "地域指標"
+  },
+  "USFlag": {
+    "message": "アメリカ国旗"
+  },
+  "ChineseFlag": {
+    "message": "中国国旗"
+  },
+  "InvalidCombination": {
+    "message": "無効な組み合わせ"
+  },
+  "VariationSelectors": {
+    "message": "変種選択子"
+  },
+  "VS16EmojiStyle": {
+    "message": "VS16 (絵文字スタイル)"
+  },
+  "VS15TextStyle": {
+    "message": "VS15 (テキストスタイル)"
+  },
+  "Nonsense": {
+    "message": "ナンセンス"
+  },
+  "JustTheVariationSelector": {
+    "message": "変種選択子のみ"
+  },
+  "VS16InvalidChar": {
+    "message": "VS16 + 無効な文字"
+  },
+  "VS12Smiley": {
+    "message": "VS15 + スマイリー"
+  },
+  "OperationalMode": {
+    "message": "運用モード"
+  },
+  "InjectValue": {
+    "message": "値の挿入"
+  },
+  "SimulatePasting": {
+    "message": "貼り付けをシミュレート"
+  },
+  "CopyToClipboard": {
+    "message": "クリップボードにコピー"
+  },
+  "CustomiseMenus": {
+    "message": "メニューをカスタマイズする"
+  },
+  "HelpSupport": {
+    "message": "バグを報告する"
+  }
+}
