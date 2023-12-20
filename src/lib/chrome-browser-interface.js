@@ -17,7 +17,7 @@ module.exports = function ChromeBrowserInterface(chrome) {
 		}
 	};
 	self.openUrl = function (url) {
-		window.open(url);
+		chrome.tabs.create({ url: url });
 	};
 	self.addStorageListener = function (listener) {
 		chrome.storage.onChanged.addListener(function (changes, areaName) {
@@ -53,7 +53,12 @@ module.exports = function ChromeBrowserInterface(chrome) {
 	};
 	self.executeScript = function (tabId, source) {
 		return new Promise((resolve) => {
-			return chrome.tabs.executeScript(tabId, {file: source}, resolve);
+			chrome.scripting.executeScript({
+				target: {tabId: tabId},
+				files: [source]
+			}, (result) => {
+				resolve(result && result.length ? result[0] : null);
+			});
 		});
 	};
 	self.sendMessage = function (tabId, message) {
@@ -79,17 +84,18 @@ module.exports = function ChromeBrowserInterface(chrome) {
 	self.removePermissions = function (permissionsArray) {
 		return new Promise((resolve) => chrome.permissions.remove({permissions: permissionsArray}, resolve));
 	};
-	self.copyToClipboard = function (text) {
-		const handler = function (e) {
-			e.clipboardData.setData('text/plain', text);
-			e.preventDefault();
-		};
-		document.addEventListener('copy', handler);
-		document.execCommand('copy');
-		document.removeEventListener('copy', handler);
+	self.copyToClipboard = function (text, tabId) {
+		chrome.tabs.sendMessage(tabId, {action: 'copyToClipboard', text: text});
 	};
+	function alertFunction(text) {
+		alert(text);
+	}
 	self.showMessage = function (text) {
-		chrome.tabs.executeScript(null, {code: `alert("${text}")`});
+		chrome.scripting.executeScript({
+			target: null,
+			func: alertFunction,
+			args: [text]
+		});
 	};
 };
 
