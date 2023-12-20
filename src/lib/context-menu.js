@@ -63,16 +63,19 @@ module.exports = function ContextMenu(standardConfig, browserInterface, menuBuil
 			menuBuilder.menuItem(chrome.i18n.getMessage('HelpSupport'), rootMenu, () => browserInterface.openUrl('https://github.com/rmuraoka/bugmagnet/issues'));
 		},
 		rebuildMenu = function (options) {
-			const rootMenu = menuBuilder.rootMenu('Bug Magnet'),
-				additionalMenus = options && options.additionalMenus,
-				skipStandard = options && options.skipStandard;
-			if (!skipStandard) {
-				processMenuObject(standardConfig, menuBuilder, rootMenu, onClick);
-			}
-			if (additionalMenus) {
-				loadAdditionalMenus(additionalMenus, rootMenu);
-			}
-			addGenericMenus(rootMenu);
+			return menuBuilder.removeAll().then(() => {
+				const rootMenu = menuBuilder.rootMenu('Bug Magnet'),
+					additionalMenus = options && options.additionalMenus,
+					skipStandard = options && options.skipStandard;
+
+				if (!skipStandard) {
+					processMenuObject(standardConfig, menuBuilder, rootMenu, onClick);
+				}
+				if (additionalMenus) {
+					loadAdditionalMenus(additionalMenus, rootMenu);
+				}
+				addGenericMenus(rootMenu);
+			});
 		},
 		wireStorageListener = function () {
 			browserInterface.addStorageListener(function () {
