@@ -32,13 +32,23 @@ module.exports = function ChromeMenuBuilder(chrome) {
 		itemHandlers = {};
 		return new Promise(resolve => chrome.contextMenus.removeAll(resolve));
 	};
-	chrome.contextMenus.onClicked.addListener((info, tab) => {
+	// eslint-disable-next-line one-var
+	const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+	self.selectChoice = function (menuId) {
+		return chrome.contextMenus.update(menuId, {checked: true});
+	};
+	// eslint-disable-next-line one-var
+	const wait = async () => {
+		await sleep(30);
+		return new Promise((resolve) => {
+			resolve();
+		});
+	};
+	chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+		await wait();
 		const itemId = info && info.menuItemId;
 		if (itemHandlers[itemId]) {
 			itemHandlers[itemId](tab.id, itemValues[itemId]);
 		}
 	});
-	self.selectChoice = function (menuId) {
-		return chrome.contextMenus.update(menuId, {checked: true});
-	};
 };

@@ -58,17 +58,17 @@ describe('BugMagnet.ChromeMenuBuilder', function () {
 			expect(result.parentId).toBe('root');
 			expect(result.onclick).toBeUndefined();
 		});
-		it('passes the value to the click handler', function () {
+		it('passes the value to the click handler', async () => {
 			const onClick = jasmine.createSpy('click'),
 				result = underTest.menuItem('test me', 'root', onClick, 'some value');
 
-			clickHandler({menuItemId: result}, {id: 5});
+			await clickHandler({menuItemId: result}, {id: 5});
 			expect(onClick).toHaveBeenCalledWith(5, 'some value');
 		});
-		it('executes the click handler even without a value', function () {
+		it('executes the click handler even without a value', async () => {
 			const onClick = jasmine.createSpy('click'),
 				result = underTest.menuItem('test me', 'root', onClick);
-			clickHandler({menuItemId: result}, {id: 5});
+			await clickHandler({menuItemId: result}, {id: 5});
 			expect(onClick).toHaveBeenCalledWith(5, undefined);
 		});
 	});
